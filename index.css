@@ -1,0 +1,56 @@
+body {
+    margin: 50px 5px 5px 20px;
+    background-color: #023047;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#title {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.green-color {
+    color: #80B918;
+}
+
+#welcome-sentence {
+    color: lightgray;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#generating, .Pass {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #80B918;
+    cursor: pointer;
+}
+
+#generating:hover, .Pass:hover {
+    background-color: #6ab04c;
+}
+
+.Pass {
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    margin: 30px 10px;
+    border-radius: 5px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #2b2d42;
+    margin: 30px 20px;
+}
+
+#button-pass {
+    text-align: center;
+    margin-top: 20px;
+}
