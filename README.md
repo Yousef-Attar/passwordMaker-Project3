@@ -59,19 +59,7 @@ The PasswordMaker generates **two random 15-character passwords** from a set of 
 
 ---
 
-## 🌐 Live Demo
 
-If hosted, view the project here:  
-🔗 [https://your-username.github.io/passwordmaker-project](https://your-username.github.io/passwordmaker-project)
-
----
-
-## 📸 Screenshots *(Optional)*
-
-> You can add a screenshot by uploading an image to the repo and adding:
-
-```markdown
-![PasswordMaker Screenshot](./screenshot.png)
 
 👨‍💻 Author
 Yousef Attar
