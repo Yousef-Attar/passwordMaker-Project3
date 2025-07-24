@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 50px 5px 5px 20px;
     background-color: #023047;
@@ -6,51 +9,66 @@ body {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    height: 100%;
 }
 
 #title {
+    font-size: 4rem;
     color: white;
     margin-bottom: 10px;
 }
 
 .green-color {
+    font-size: 3rem;
     color: #80B918;
 }
 
 #welcome-sentence {
+    font-size: 2rem;
     color: lightgray;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 #generating, .Pass {
-    padding: 10px 20px;
+    padding: 20px 40px;
     border-radius: 8px;
     border: none;
     color: white;
     background-color: #80B918;
     cursor: pointer;
 }
-
+#generating{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+}
 #generating:hover, .Pass:hover {
     background-color: #6ab04c;
 }
 
 .Pass {
-    width: 170px;
+    width: 40%;
     height: 30px;
     text-align: center;
-    margin: 30px 10px;
+    margin-bottom: 2em;
     border-radius: 5px;
+    padding: 2em;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 hr {
     border: none;
     border-top: 1px solid #2b2d42;
-    margin: 30px 20px;
+    margin: 20px 10px;
 }
 
 #button-pass {
     text-align: center;
-    margin-top: 20px;
 }
